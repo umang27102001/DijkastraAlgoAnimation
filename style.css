@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+}
+.box{
+    border:none;
+    padding: 20px;
+    background-color: rgb(8 44 124);
+    color: white;
+    border-radius: 7px;
+  }
+  .box:hover{
+    border:none;
+    cursor: pointer;
+    transform:scale(1.2);
+    transition: 0.3s;
+    background-color: yellow;
+    color: black;            
+}
+body{
+  padding: 0px;
+  font-weight: bold;
+  margin:0px;
+  background-color: rgb(177, 255, 190);
+}
+input{
+  padding: 12px;
+}
+.btn{
+  border: none;
+    padding: 15px;
+    background-color: rgb(8 44 124);
+    color: white;
+    border-radius: 7px;
+}
+.btn:hover{
+  cursor: pointer;
+  transition: 0.3s;
+    background-color: yellow;
+    color:black;
+}
